@@ -1,6 +1,6 @@
 {
-  "short_name": "及時天氣",
-  "name": "臺灣即時天氣",
+  "short_name": "即時天氣",
+  "name": "台灣即時天氣",
   "icons": [
     {
       "src": "icon@x48.png",
