@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import WeatherApp from "./WeatherApp";
+import * as serviceWorker from './serviceWorker'
 
 import "./styles.css";
 
@@ -10,3 +11,5 @@ function App() {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+
+serviceWorker.register();
